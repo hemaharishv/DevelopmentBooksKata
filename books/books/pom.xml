@@ -12,7 +12,7 @@
 	<artifactId>books</artifactId>
 	<version>0.0.1</version>
 	<name>books</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Development Book kata</description>
 	<url/>
 	<licenses>
 		<license/>

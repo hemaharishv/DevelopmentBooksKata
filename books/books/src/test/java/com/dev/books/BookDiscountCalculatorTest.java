@@ -17,7 +17,7 @@ public class BookDiscountCalculatorTest {
     private BookDiscountCalculator bookDiscountCalculator;
 
     @Test
-    public void test1() {
+    public void testWithExampleInTheKata() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Code");
@@ -32,7 +32,7 @@ public class BookDiscountCalculatorTest {
     }
 
     @Test
-    public void test2() {
+    public void testWithNonBestOffer() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Coder");
@@ -45,7 +45,7 @@ public class BookDiscountCalculatorTest {
     }
 
     @Test
-    public void test3() {
+    public void testWithLessBookTitleThanFive() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Coder");
@@ -57,7 +57,7 @@ public class BookDiscountCalculatorTest {
     }
 
     @Test
-    public void test4() {
+    public void testWithUnknownBookTitle() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Coder");
@@ -70,7 +70,7 @@ public class BookDiscountCalculatorTest {
     }
 
     @Test
-    public void test5() {
+    public void testWithUnknownBookTitleOffer() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Code");
@@ -89,7 +89,7 @@ public class BookDiscountCalculatorTest {
     }
 
     @Test
-    public void test6() {
+    public void testWithoutUnknownBookTitleOffer() {
         List<String> bookBasket = new ArrayList<>();
         bookBasket.add("Clean Code");
         bookBasket.add("Clean Code");
